@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav-logo">Frontend Developer</a>
+                <ul class="nav-links">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Hi, I'm Mitansh.<br>I build things for the web.</h1>
+                <p>I'm a frontend developer specializing in building (and occasionally designing) exceptional digital experiences.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="button primary">View Projects <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    <a href="#contact" class="button secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>infinite sketchpad</h3>
+                        <p>infinite-sketchpad is a white board in which you can draw and write.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>Tailwind CSS</span>
+                            <span>JS Libraries</span>
+                        </div>
+                        <a href="https://infinite-sketchpad.vercel.app/" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>IT-Tech</h3>
+                        <p>It's a Welcome page of the online studying platform for CSE students</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>GSAP</span>
+                            <span>LOCOMOTIVE JS</span>
+                        </div>
+                        <a href="https://it-o0wnpp44z-mitansh99s-projects.vercel.app/" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">HTML</div>
+                    <div class="skill-item">CSS</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">Tailwind CSS</div>
+                    <div class="skill-item">Git & Github</div>
+                    <div class="skill-item">GSAP</div>
+                    <div class="skill-item">Loco Motive</div>
+                    <div class="skill-item">UI/UX</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <p>Built by Mitansh Patel.</p>
+            <div class="social-links">
+                <a href="https://github.com/mitansh99" target="_blank" rel="noreferrer">
+                    <!-- GitHub SVG -->
+                </a>
+                <a href="https://www.linkedin.com/in/mitansh-patel-aa115025b" target="_blank" rel="noreferrer">
+                    <!-- LinkedIn SVG -->
+                </a>
+                <a href="mailto:mitanshpatel99@gmail.com">
+                    <!-- Email SVG -->
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
